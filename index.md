@@ -1,4 +1,4 @@
 # **hello,world.**
 
 - [network](/network/index.md)
-- [linus](/linux/index.md)
+- [linux](/linux/index.md)
