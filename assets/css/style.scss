@@ -22,11 +22,11 @@
   /* 代码块背景 */
   --color-canvas-subtle: #161b22;
   
-  /* 链接颜色 - 浅蓝色 */
-  --color-accent-fg: #ffc993;
+  /* 链接颜色 -  */
+  --color-accent-fg: #f5ab62;
   
   /* 链接悬停颜色 */
-  --color-accent-emphasis: #f5ab62;
+  --color-accent-emphasis: #f9a24a;
   
   /* 表格边框 */
   --color-border-muted: #21262d;
@@ -51,11 +51,6 @@ a {
 a:hover {
   color: var(--color-accent-emphasis) !important;
   text-decoration: underline; /* 可选：悬停时显示下划线 */
-}
-
-/* 已访问链接的颜色 */
-a:visited {
-  color: #e6a700 !important; /* 稍暗的黄色 */
 }
 
 /* 代码块样式调整 */
