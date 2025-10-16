@@ -1,0 +1,64 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* 深色模式配色 */
+:root {
+  /* 主要背景颜色 - 深灰色 */
+  --color-canvas-default: #0d1117;
+  
+  /* 主要文字颜色 - 浅灰色 */
+  --color-fg-default: #e6edf3;
+  
+  /* 次要文字颜色 - 中灰色 */
+  --color-fg-muted: #7d8590;
+  
+  /* 标题颜色 - 白色 */
+  --color-fg-on-emphasis: #ffffff;
+  
+  /* 边框颜色 - 深灰色 */
+  --color-border-default: #30363d;
+  
+  /* 代码块背景 */
+  --color-canvas-subtle: #161b22;
+  
+  /* 链接颜色 - 浅蓝色 */
+  --color-accent-fg: #58a6ff;
+  
+  /* 链接悬停颜色 */
+  --color-accent-emphasis: #1f6feb;
+  
+  /* 表格边框 */
+  --color-border-muted: #21262d;
+  
+  /* 块引用背景 */
+  --color-blockquote-border: #3fb950;
+}
+
+/* 额外确保body使用深色背景和浅色文字 */
+body {
+  background-color: var(--color-canvas-default);
+  color: var(--color-fg-default);
+}
+
+/* 代码块样式调整 */
+pre, code {
+  background-color: var(--color-canvas-subtle) !important;
+  border: 1px solid var(--color-border-default);
+}
+
+/* 表格样式调整 */
+table {
+  border-color: var(--color-border-muted);
+}
+
+/* 块引用样式 */
+blockquote {
+  border-left-color: var(--color-blockquote-border);
+  background-color: var(--color-canvas-subtle);
+}
+
+/* 确保所有标题都是浅色 */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-fg-on-emphasis);
+}
