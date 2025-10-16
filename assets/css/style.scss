@@ -41,6 +41,23 @@ body {
   color: var(--color-fg-default);
 }
 
+/* 专门设置链接颜色 */
+a {
+  color: var(--color-accent-fg) !important;
+  text-decoration: none; /* 可选：移除下划线 */
+}
+
+/* 链接悬停效果 */
+a:hover {
+  color: var(--color-accent-emphasis) !important;
+  text-decoration: underline; /* 可选：悬停时显示下划线 */
+}
+
+/* 已访问链接的颜色 */
+a:visited {
+  color: #e6a700 !important; /* 稍暗的黄色 */
+}
+
 /* 代码块样式调整 */
 pre, code {
   background-color: var(--color-canvas-subtle) !important;
