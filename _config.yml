@@ -1,8 +1,2 @@
 name: blue
-title: null
-
-defaults:
-  - scope:
-      path: "network"
-    values:
-      title: "home"
+title: home
