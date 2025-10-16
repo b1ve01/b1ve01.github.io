@@ -53,11 +53,6 @@ a:hover {
   text-decoration: underline; /* 可选：悬停时显示下划线 */
 }
 
-/* 确保内容区域不阻止点击 */
-body, .markdown-body, .Layout, .container {
-  pointer-events: auto !important;
-}
-
 /* 代码块样式调整 */
 pre, code {
   background-color: var(--color-canvas-subtle) !important;
@@ -78,4 +73,7 @@ blockquote {
 /* 确保所有标题都是浅色 */
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-fg-on-emphasis);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
 }
