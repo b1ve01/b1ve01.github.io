@@ -53,6 +53,11 @@ a:hover {
   text-decoration: underline; /* 可选：悬停时显示下划线 */
 }
 
+/* 确保内容区域不阻止点击 */
+body, .markdown-body, .Layout, .container {
+  pointer-events: auto !important;
+}
+
 /* 代码块样式调整 */
 pre, code {
   background-color: var(--color-canvas-subtle) !important;
