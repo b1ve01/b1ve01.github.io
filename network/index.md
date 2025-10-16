@@ -1,2 +1,2 @@
-# [home](../index.md)
+- # [Home](/)
 # this is network page
