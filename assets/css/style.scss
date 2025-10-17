@@ -56,13 +56,11 @@ a:hover {
 /* 代码块样式调整 */
 pre, code {
   background-color: var(--color-canvas-subtle) !important;
-  border: none !important;
+  border: none solid #0d1117 !important;
   outline: none !important;
   box-shadow: none !important;
     /* 移除圆角 */
   border-radius: 8px !important;
-
-  border-radius-color: var(--color-canvas-default);
 }
 
 /* 移除代码块周围的装饰性元素 */
@@ -70,11 +68,9 @@ pre, code {
 .highlight code,
 .language-c pre,
 .language-c code {
-  border: none !important;
+  border: none solid #0d1117 !important;
     /* 移除圆角 */
   border-radius: 8px !important;
-
-  border-radius-color: var(--color-canvas-default);
 }
 
 /* 表格样式调整 */
