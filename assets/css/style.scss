@@ -56,7 +56,9 @@ a:hover {
 /* 代码块样式调整 */
 pre, code {
   background-color: var(--color-canvas-subtle) !important;
-  border: 1px solid var(--color-border-default);
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* 表格样式调整 */
