@@ -1,7 +1,43 @@
 # [Home](/)
 # [../](../)
   
-# SELECT  
+# SELECT 
+- [Basic](#Basic)
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
 ## Basic
 ```sql
 SELECT column1,column2,...
@@ -11,22 +47,3 @@ and
 ```sql
 SELECT * FROM table_name;
 ```
-
-#
-#
-#
-#
-#
-
-#
-#
-#
-
-#
-#
-#
-#
-#
-
-##
-[to_Basic](#basic)
