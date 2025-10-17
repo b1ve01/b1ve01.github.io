@@ -92,3 +92,33 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
+
+/* 完整的深色模式语法高亮 */
+.highlight {
+  background-color: var(--color-canvas-subtle) !important;
+  
+  /* 注释 */
+  .c, .c1, .cm, .cp, .cs { color: #8b949e !important; }
+  
+  /* 关键字 */
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #ff7b72 !important; }
+  
+  /* 名称 */
+  .n, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nx { color: #c9d1d9 !important; }
+  
+  /* 字符串 */
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx { color: #a5d6ff !important; }
+  
+  /* 数字 */
+  .m, .mf, .mh, .mi, .il, .mo { color: #79c0ff !important; }
+  
+  /* 操作符 */
+  .o, .ow { color: #ff7b72 !important; }
+  
+  /* 标点符号 */
+  .p { color: #c9d1d9 !important; }
+  
+  /* 其他 */
+  .gd { color: #ff7b72 !important; } /* 已删除 */
+  .gi { color: #3fb950 !important; } /* 已插入 */
+}
