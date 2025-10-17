@@ -3,28 +3,17 @@
   
 # SELECT 
 - # [Basic](#basic)
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## Basic
 ```sql
 SELECT column1,column2,...
