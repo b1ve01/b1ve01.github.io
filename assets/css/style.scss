@@ -60,7 +60,7 @@ pre, code {
   outline: none !important;
   box-shadow: none !important;
     /* 移除圆角 */
-  border-radius: 0 !important;
+  border-radius: 8px !important;
 }
 
 /* 移除代码块周围的装饰性元素 */
@@ -70,7 +70,7 @@ pre, code {
 .language-c code {
   border: none !important;
     /* 移除圆角 */
-  border-radius: 0 !important;
+  border-radius: 8px !important;
 }
 
 /* 表格样式调整 */
