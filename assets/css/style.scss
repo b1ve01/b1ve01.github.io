@@ -45,6 +45,7 @@ body {
 a {
   color: var(--color-accent-fg) !important;
   text-decoration: none; /* 可选：移除下划线 */
+  transition: color 0.2s ease-in-out;
 }
 
 /* 链接悬停效果 */
