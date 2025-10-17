@@ -61,6 +61,7 @@ pre, code {
   box-shadow: none !important;
     /* 移除圆角 */
   border-radius: 8px !important;
+  border-color: var(--color-canvas-default);
 }
 
 /* 移除代码块周围的装饰性元素 */
@@ -71,6 +72,7 @@ pre, code {
   border: none !important;
     /* 移除圆角 */
   border-radius: 8px !important;
+  border-color: var(--color-canvas-default);
 }
 
 /* 表格样式调整 */
