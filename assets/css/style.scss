@@ -59,6 +59,8 @@ pre, code {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
+    /* 移除圆角 */
+  border-radius: 0 !important;
 }
 
 /* 移除代码块周围的装饰性元素 */
@@ -67,6 +69,8 @@ pre, code {
 .language-c pre,
 .language-c code {
   border: none !important;
+    /* 移除圆角 */
+  border-radius: 0 !important;
 }
 
 /* 表格样式调整 */
