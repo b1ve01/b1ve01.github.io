@@ -1,4 +1,4 @@
-# **hello,world : )**
+# **hello, world**
 ```
 main( ) {
         printf("hello, world\n");
