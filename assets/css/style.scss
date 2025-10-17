@@ -60,7 +60,7 @@ pre, code {
   outline: none !important;
   box-shadow: none !important;
     /* 移除圆角 */
-  border-radius: 8px !important;
+  border-radius: 0 !important;
 }
 
 /* 移除代码块周围的装饰性元素 */
@@ -70,7 +70,7 @@ pre, code {
 .language-c code {
   border: none !important;
     /* 移除圆角 */
-  border-radius: 8px !important;
+  border-radius: 0 !important;
 }
 
 /* 表格样式调整 */
@@ -82,7 +82,6 @@ table {
 blockquote {
   border-left-color: var(--color-blockquote-border);
   background-color: var(--color-canvas-subtle);
-  border-color: var(--color-canvas-default) !important;
 }
 
 /* 确保所有标题都是浅色 */
