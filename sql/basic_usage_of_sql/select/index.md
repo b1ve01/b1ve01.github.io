@@ -2,42 +2,29 @@
 # [../](../)
   
 # SELECT 
-- [Basic](#Basic)
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
+- # [Basic](#basic)
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
 ## Basic
 ```sql
 SELECT column1,column2,...
