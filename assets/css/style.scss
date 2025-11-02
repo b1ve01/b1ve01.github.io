@@ -148,8 +148,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 强制 SQL 代码段全部显示为白色 */
 .language-sql,
-.highlight .sql,
-.language-sql *,
-.highlight .sql * {
-  color: #ffffff !important;
+.highlight .sql {
+  /* 重置所有颜色为白色 */
+  * {
+    color: #ffffff !important;
+  }
 }
