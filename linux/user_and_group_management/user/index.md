@@ -8,6 +8,6 @@
 <br/>
 
 ## Check how many users
-```
+```bash
 getent passwd | grep -Ff /etc/shells | cut -d: -f1 | sort
 ```
