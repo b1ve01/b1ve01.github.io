@@ -122,3 +122,26 @@ h1, h2, h3, h4, h5, h6 {
   .gd { color: #ff7b72 !important; } /* 已删除 */
   .gi { color: #3fb950 !important; } /* 已插入 */
 }
+
+/* 更全面的 Bash 代码高亮设置 */
+.language-bash,
+.language-shell,
+.highlight .bash {
+  /* 重置所有颜色为白色 */
+  * {
+    color: #ffffff !important;
+  }
+  
+  /* 然后为特定元素设置颜色 */
+  .keyword, .built_in {
+    color: #ff7b72 !important; /* 关键字保持红色 */
+  }
+  
+  .comment {
+    color: #8b949e !important; /* 注释保持灰色 */
+  }
+  
+  .string {
+    color: #a5d6ff !important; /* 字符串保持蓝色 */
+  }
+}
