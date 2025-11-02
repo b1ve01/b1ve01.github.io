@@ -145,3 +145,11 @@ h1, h2, h3, h4, h5, h6 {
 .highlight .bash .s {
   color: #ffffff !important;
 }
+
+/* 强制 SQL 代码段全部显示为白色 */
+.language-sql,
+.highlight .sql,
+.language-sql *,
+.highlight .sql * {
+  color: #ffffff !important;
+}
