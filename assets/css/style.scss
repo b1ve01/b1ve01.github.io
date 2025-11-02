@@ -132,3 +132,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff !important;
   }
 }
+
+/* 特别确保字符串类也是白色 */
+.language-bash .s2,
+.language-shell .s2,
+.highlight .bash .s2,
+.language-bash .s1,
+.language-shell .s1,
+.highlight .bash .s1,
+.language-bash .s,
+.language-shell .s,
+.highlight .bash .s {
+  color: #ffffff !important;
+}
