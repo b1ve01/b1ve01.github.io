@@ -146,9 +146,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;
 }
 
-/* 强制 SQL 代码段全部显示为白色 */
-.language-sql,
-.highlight .* {
-  /* 重置所有颜色为白色 */
+/* 简洁方法：强制所有 SQL 相关元素为白色 */
+.language-sql *,
+.highlight .sql *,
+[class*="language-sql"] *,
+[class*="sql"] * {
   color: #ffffff !important;
 }
