@@ -3,6 +3,7 @@
 # Basic usage of SQL
 - # [Select](#select)
 - # [Where](#where)
+- # [Like](#like)
 <br/>
 <br/>
 <br/>
@@ -51,3 +52,6 @@ SELECT *
 FROM table_1
 WHERE column_1 (NOT) IN (1,3,5,7,9);
 ```
+<br/>  
+
+## like
