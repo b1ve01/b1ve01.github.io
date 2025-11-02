@@ -14,7 +14,7 @@
 <br/>
 <br/>
 
-## select
+### select
 查詢所有數據
 ```
 SELECT *
@@ -27,7 +27,7 @@ FROM table_1;
 ``` 
 <br/>  
 
-## where
+### where
 根據特定條件查詢
 ```
 SELECT *
@@ -54,4 +54,4 @@ WHERE column_1 (NOT) IN (1,3,5,7,9);
 ```
 <br/>  
 
-## like
+### like
