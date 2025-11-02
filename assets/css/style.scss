@@ -131,21 +131,4 @@ h1, h2, h3, h4, h5, h6 {
   * {
     color: #ffffff !important;
   }
-
-  .nb {
-    color: #f9a24a !important; /* 红色 */
-  }
-  
-  /* 然后为特定元素设置颜色 */
-  .keyword, .built_in {
-    color: #ff7b72 !important; /* 关键字保持红色 */
-  }
-  
-  .comment {
-    color: #8b949e !important; /* 注释保持灰色 */
-  }
-  
-  .string {
-    color: #a5d6ff !important; /* 字符串保持蓝色 */
-  }
 }
