@@ -1,5 +1,5 @@
 # [Home](/)
-# [../](../)
+# [../Linux/User and Group Management](../)
 # User
 - # [Check how many users](#check_how_many_users)
 <br/>
