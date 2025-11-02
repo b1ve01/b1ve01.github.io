@@ -1,7 +1,7 @@
 # [Home](/)
 # [../Linux/User and Group Management](../)
 # User
-- # [Check how many users](#check_how_many_users)
+- # [Check how many users](#check-how-many-users)
 <br/>
 <br/>
 <br/>
