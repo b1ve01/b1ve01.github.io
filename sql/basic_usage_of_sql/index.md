@@ -1,9 +1,9 @@
 # [Home](/)
 # [../Home/SQL](../)
 # Basic usage of SQL
-- # [Select](#select)
-- # [Where](#where)
-- # [Like](#like)
+[Select](#select)  
+[Where](#where)  
+[Like](#like)  
 <br/>
 <br/>
 <br/>
