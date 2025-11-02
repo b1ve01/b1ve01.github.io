@@ -6,12 +6,23 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Check how many users
 ```bash
 getent passwd | grep -Ff /etc/shells | cut -d: -f1 | sort
 ```
-getent passwd (數據庫名稱)類似 cat /etc/passwd (文件名稱), 但 getent passwd 遵循 /etc/nsswitch.conf 配置, 可能返回本地+網絡用戶; cat /etc/passwd 只顯示本地文件中的用戶, 不考慮網絡用戶源。 
+getent passwd (數據庫名稱)類似 cat /etc/passwd (文件名稱), 但 getent passwd 遵循 /etc/nsswitch.conf 配置, 可能返回本地 + 網絡用戶; cat /etc/passwd 只顯示本地文件中的用戶, 不考慮網絡用戶源。 
 <br/>  
 -F 視作固定字符串,禁用正則表達式的特殊字符(如., *, +, []等)  
 例如:  
