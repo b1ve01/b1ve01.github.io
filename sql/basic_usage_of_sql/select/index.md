@@ -21,5 +21,5 @@ FROM table_name;
 ```
 and
 ```sql
-SELECT * FROM table_name;
+SELECT * FROM table1;
 ```
