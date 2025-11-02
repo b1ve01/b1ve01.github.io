@@ -1,6 +1,5 @@
 # [Home](/)
-# [../](../)
-  
+# [../Home/SQL/Basic usage of SQL](../)
 # SELECT 
 - # [Basic](#basic)
 <br/>
@@ -15,11 +14,12 @@
 <br/>
 
 ## Basic
+查詢所有數據
 ```sql
-SELECT column1,column2,...
-FROM table_name;
+SELECT * FROM table_1;
 ```
-and
+查詢特定列
 ```sql
-SELECT * FROM table1;
+SELECT column_1,column_2,...
+FROM table_1;
 ```
