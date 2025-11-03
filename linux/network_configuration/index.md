@@ -1,7 +1,7 @@
 # [Home](/)
 # [../Home/Linux](../)
 # Network Configuration
-[Show IP](#show-ip)
+[Show](#show-ip)
 <br/>
 <br/>
 <br/>
