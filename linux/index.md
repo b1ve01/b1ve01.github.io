@@ -8,4 +8,4 @@
 <br/> 
 
 # Network Management
-- # [Network Configuration](/linux/network_onfiguration)
+- # [Network Configuration](/linux/network_configuration)
