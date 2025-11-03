@@ -1,7 +1,7 @@
 # [Home](/)
 # [../Home/Linux/User and Group Management](../)
 # User
-- # [Check how many users](#check-how-many-users)
+[Show how many users](#show-how-many-users)
 <br/>
 <br/>
 <br/>
@@ -18,7 +18,7 @@
 <br/>
 <br/>
 
-## Check how many users
+## Show how many users
 ```
 getent passwd | grep -Ff /etc/shells | cut -d: -f1 | sort
 ```
