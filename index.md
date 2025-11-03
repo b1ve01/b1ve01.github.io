@@ -7,4 +7,3 @@ main( ) {
 
 - # [Network](/network)
 - # [Linux](/linux)
-- # [SQL](/sql)
