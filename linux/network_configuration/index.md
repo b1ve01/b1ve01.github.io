@@ -1,25 +1,10 @@
 # [Home](/)
 # [../Home/Linux](../)
 # Network Configuration
-[Show Info](#show-info) 
+[Show Info](#show-info)
 <br/>  
 [Set Info](#set-info)
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
+<br/>  
 ## Show Info
 # 查看網絡接口和IP地址配置
 ```
@@ -76,4 +61,5 @@ nameserver 8.8.8.8
 ```
 echo "nameserver 8.8.8.8" | tee -a /etc/resolv.conf
 ```
-tee 將輸出的内容保存到指定文件, -a 指append , -a在文件尾部添加内容, 如果不加 -a 的話文件會被内容覆蓋
+tee 將輸出的内容保存到指定文件, -a 指append , -a在文件尾部添加内容, 如果不加 -a 的話文件會被内容覆蓋  
+/etc/resolv.conf 用來配置系統DNS解析服務器
