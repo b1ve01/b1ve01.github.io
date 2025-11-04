@@ -24,10 +24,10 @@ echo "/bin/bash" | grep -F "/bin.bash"
 ```
 -f 讀取指定文件中的每一行用作獨立搜索
 <br/> 
-/etc/shells文件存放系統認可的有效登錄shell列表 
+/etc/shells 文件存放系統認可的有效登錄 shell 列表 
 <br/>  
 所以  
 ```
 getent passwd | grep -Ff /etc/shells
 ```
-getent passwd 先輸出所有用戶的信息, 然後 grep -Ff /etc/shells 從 shells中讀取有效shell路徑, 兩者再匹配對應的行
+getent passwd 先輸出所有用戶的信息, 然後 grep -Ff /etc/shells 從 shells 中讀取有效 shell 路徑, 兩者再匹配對應的行
