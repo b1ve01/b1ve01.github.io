@@ -1,7 +1,7 @@
 baseURL = "https://b1ve01.github.io/"
 languageCode = "en-us"
 title = "blue_blog"
-theme = "hello,world"
+theme = "terminal"
 
 [params]
   # 重点：这里设置为 "white"，配合黑底就是纯正黑白风
