@@ -1,6 +1,6 @@
 /* 调整容器的最大宽度 */
 .container {
-    max-width: 90% !important; /* 默认通常是 640px 或 800px，改为 90% 宽 */
+    max-width: 100% !important; /* 默认通常是 640px 或 800px，改为 90% 宽 */
 }
 
 /* 调整正文内容的宽度限制 */
