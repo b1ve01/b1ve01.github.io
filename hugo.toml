@@ -4,26 +4,33 @@ title = "blue_blog"
 theme = "terminal"
 
 [params]
-  # 重点：主题色
-  themeColor = "white"
-  contentTypeName = "posts"
+  showMenuItems = 10
+  fullWidthTheme = true
 
-  # --- 必须这样写才能改掉左上角的字 ---
-  [params.logo]
-    logoText = "hello,world!"      # 这里改成你想要的字
-    logoCursor = "_"      # 这里是后面的闪烁光标
-  # ----------------------------------
+[languages]
+  [languages.en]
+    title = "blue_blog"
+    menuMore = "Show more"
 
-  [[params.menu.main]]
-    name = "Network"
-    url = "/posts/?config=network"
-  [[params.menu.main]]
-    name = "Linux"
-    url = "/posts/?config=linux"
+    [languages.en.params.logo]
+      logoText = "hello,world!"
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-    style = "monokai"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "network"
+        name = "Network"
+        url = "#"
+        weight = 30
+
+[markup.goldmark.renderer]
+  unsafe = true # 允许在 Markdown 中使用原生 HTML
