@@ -2,9 +2,10 @@ baseURL = "https://b1ve01.github.io/"
 languageCode = "en-us"
 title = "blue_blog"
 theme = "terminal"
-name = "hello,world!"
 
 [params]
+  # 重点！这里才是修改左上角那个框框文字的地方
+  logoText = "hello,world!"
   # 重点：这里设置为 "white"，配合黑底就是纯正黑白风
   themeColor = "white"
   
