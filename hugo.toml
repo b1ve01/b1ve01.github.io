@@ -15,22 +15,5 @@ theme = "terminal"
     [languages.en.params.logo]
       logoText = "hello,world!"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-        weight = 10
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
-        weight = 20
-      [[languages.en.menu.main]]
-        identifier = "network"
-        name = "Network"
-        url = "#"
-        weight = 30
-
 [markup.goldmark.renderer]
   unsafe = true # 允许在 Markdown 中使用原生 HTML
