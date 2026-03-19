@@ -60,7 +60,6 @@
   <div class="nav-links">
     <a href="/about" class="nav-item">[ ABOUT ]</a>
     <a href="/showcase" class="nav-item">[ SHOWCASE ]</a>
-    <a href="/categories/network" class="nav-item">[ NETWORK ]</a>
   </div>
 
 </div>
