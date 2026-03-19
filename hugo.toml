@@ -1,0 +1,26 @@
+baseURL = "https://b1ve01.github.io/"
+languageCode = "en-us"
+title = "hello, world"
+theme = "terminal"
+
+[params]
+  # 重点：这里设置为 "white"，配合黑底就是纯正黑白风
+  themeColor = "white"
+  
+  # 这里的文字会出现在首页左侧
+  contentTypeName = "posts"
+  
+  # 像你截图里的目录结构
+  [[params.menu.main]]
+    name = "Network"
+    url = "/posts/?config=network"
+  [[params.menu.main]]
+    name = "Linux"
+    url = "/posts/?config=linux"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true           # 显示行号
+    style = "monokai"        # 代码块保持暗色背景
