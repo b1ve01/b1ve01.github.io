@@ -1,19 +1,19 @@
 baseURL = "https://b1ve01.github.io/"
 languageCode = "en-us"
 title = "blue_blog"
-name = "hello,world!"
 theme = "terminal"
 
 [params]
-  # 确保这两行在 [params] 下方，并且没有被 # 号注释掉
-  logoText = "hello,world!"
-  # 重点：这里设置为 "white"，配合黑底就是纯正黑白风
+  # 重点：主题色
   themeColor = "white"
-  
-  # 这里的文字会出现在首页左侧
   contentTypeName = "posts"
-  
-  # 像你截图里的目录结构
+
+  # --- 必须这样写才能改掉左上角的字 ---
+  [params.logo]
+    logoText = "hello,world!"      # 这里改成你想要的字
+    logoCursor = "_"      # 这里是后面的闪烁光标
+  # ----------------------------------
+
   [[params.menu.main]]
     name = "Network"
     url = "/posts/?config=network"
@@ -25,5 +25,5 @@ theme = "terminal"
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    lineNos = true           # 显示行号
-    style = "monokai"        # 代码块保持暗色背景
+    lineNos = true
+    style = "monokai"
